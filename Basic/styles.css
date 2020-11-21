@@ -1,0 +1,72 @@
+html, body, #app{
+    height: 100%;
+    margin: 0;
+}
+
+#app{
+
+    display: flex;
+    flex-wrap: wrap;
+    ;
+    /*
+    flex-direction: row;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    
+    justify-content: center;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-between; Espaço igual e nao coloca espaço no inicio e nem no final
+    justify-content: space-around; Espaço igual e coloca no inicio e no final
+
+
+    flex-wrap: wrap; Quebra linha
+    flex-wrap: wrap-reverse; 
+
+    align-content: center;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: space-between; Espaço igual e nao coloca espaço no inicio e nem no final
+    align-content: space-around; Espaço igual e coloca no inicio e no final
+    */
+    
+}
+
+.box {
+    width: 150px;
+    height: 60px;
+    margin: 5px;
+    flex-shrink: 0;
+}
+
+/*
+flex: 1;
+flex-grow: 1; fica em todo espaço do elemento
+flex-shrink: 1; expreme para caber na tela
+flex-shrink: 0; não expreme para caber na tela
+*/
+.red {
+    background: #f00;
+    order: 2;
+}
+
+.green {
+    background: #0f0;
+    order: 1;
+}
+
+.blue {
+    background: #00f;
+    order: 0;
+}
+
+/*
+
+order: 2;
+
+*/
